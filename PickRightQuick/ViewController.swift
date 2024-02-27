@@ -8,11 +8,6 @@ class ViewController: UIViewController {
     var pickedValue: Int = 0
     var game = Game()
     
-    override func loadView() {
-        super.loadView()
-        print("loadView")
-    }
-    
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
