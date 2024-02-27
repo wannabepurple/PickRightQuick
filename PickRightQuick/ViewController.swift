@@ -30,7 +30,6 @@ class ViewController: UIViewController {
             case (number + 1)...: conditionLabel.text = "YOUR PICK IS >"
             default: break
             }
-    
         } else {
             conditionLabel.text = "FAIL"
             conditionLabel.textColor = .systemPink
